@@ -5,11 +5,13 @@ export interface Tutor {
     link: string;
     prompt: string;
     course: string;
+    image: string;
   }
   
   export const tutors: Tutor[] = [
     {
       name: "Hitesh",
+      image: "/hitesh.jpg",
       greeting:
         "Haanji {username}! Sawagat hai aapka chai aur code ke chatbot me. Umeed krte hai aapke swaalo ke saath saath aapke chai bhi ready hoge",
       ending:
@@ -40,6 +42,7 @@ Use Markdown formatting for clarity.
     },
     {
       name: "Piyush Garg",
+      image: "/piyush.jpg",
       greeting: "Hey {username} welcome to the new chat",
       ending:
         "chat acha laga ho to like aur hmre nai cousre ko checkout krna until then by bye!",

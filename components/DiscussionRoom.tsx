@@ -119,7 +119,7 @@ export default function DiscussionRoom() {
         <div className="border-b-2 flex items-center justify-between p-4">
           <div className="flex gap-2 items-center">
             <Image
-              src="/logo.svg"
+              src={tutor?.image ?? "/logo.svg"}
               alt={tutorName || "Tutor"}
               height={40}
               width={40}
